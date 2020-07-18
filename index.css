@@ -1,0 +1,24 @@
+.nav-link{
+    font-family: Helvetica;
+    font-weight: 800;
+}
+
+#homese #im {
+    
+    height: 30rem;
+    position: relative;
+    border: 2px solid black;
+}
+
+#homese #im::before{
+position: absolute;
+content: "";
+z-index: -1;
+background: url(/usedstuff/bgi.jpg);
+background-position: center;
+opacity: 0.7;
+background-repeat: no-repeat;
+
+width: 100%;
+height: 100%;
+}
