@@ -18,7 +18,7 @@
 position: absolute;
 content: "";
 z-index: -1;
-background: url(/bgi.jpg);
+background: url(bgi.jpg);
 background-position: center;
 opacity: 0.78;
 background-repeat: no-repeat;
