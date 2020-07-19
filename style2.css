@@ -1,0 +1,36 @@
+body{
+    /* background-color: yellow; */
+}
+
+#homese #im #r1{
+width: 15rem;
+height: 15rem;
+}
+#homese #im #r2{
+width: 15rem;
+height: 15rem;
+}
+#homese #im #l1{
+
+}
+
+#homese #im #l1 img{
+width: 8rem;
+height: 8rem;
+}
+
+#homese #im #l1 h1{
+font-size: 1.5rem;
+}
+#homese #im #l1 p{
+    font-size: 1rem;
+}
+#tm .item{
+width: 8rem;
+height: 10rem;
+}
+
+#tm .btn{
+    width: 1.5rem;
+    height: 1.5rem;
+}

@@ -1,0 +1,83 @@
+body{
+    /* background-color: yellow; */
+}
+
+#homese #im #r1{
+width: 10rem;
+height: 10rem;
+}
+#homese #im #r2{
+width: 10rem;
+height: 10rem;
+}
+#homese #im #l1{
+
+}
+
+#homese #im #l1 img{
+width: 3rem;
+height: 3rem;
+}
+
+#homese #im #l1 h1{
+font-size: 0.5rem;
+}
+#homese #im #l1 p{
+    font-size: 0.4rem;
+}
+#tm .item{
+width: 6rem;
+height: 7rem;
+}
+
+#tm .btn{
+    width: 1rem;
+    height: 1rem;
+}
+#h2{
+font-size: 0.7rem;
+}
+
+#h1{
+font-size: 0.7rem;
+}
+#bdeals{
+font-size: 0.7rem;
+}
+#at{
+font-size: 0.7rem;
+}
+#cnt{
+font-size: 0.7rem;
+}
+#offer img{
+    /* width: ; */
+    height: 25rem;
+}
+#aboutus #abf{
+width: 15rem;
+font-size: 1rem;
+}
+#ai{
+
+}
+
+#ai img{
+width: 4rem;
+height: 4rem;
+}
+form input{
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    font-size: 1rem;
+}
+form textarea{
+    width: 10rem;
+    height: 10rem;
+}
+form button{
+    font-size: 1rem;
+}
+#address #add{
+    font-size: 0.7rem;
+}

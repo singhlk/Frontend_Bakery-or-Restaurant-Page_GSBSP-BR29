@@ -6,13 +6,15 @@
     <title>Bakery and Restaurant</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link rel="stylesheet" media="screen and (max-width:1450px)" href="style2.css">
+    <link rel="stylesheet" media="screen and (max-width:740px)" href="style3.css">
+    <link rel="stylesheet" media="screen and (max-width:540px)" href="style4.css">
   </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <a class="navbar-brand" href="#" id="logo">
+        <a class="navbar-brand"  id="logo" style="cursor: default;">
             <img src="rs1.png" width="30" height="30" alt="" loading="lazy">
           </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,31 +24,31 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#" style="color: aliceblue;">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link"  style="color: aliceblue; cursor: pointer;" id="hm" href="#homese">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html" style="color: aliceblue;">About Us</a>
+              <a class="nav-link" style="color: aliceblue; cursor: pointer;" id="ab" href="#at">About Us</a>
               
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" style="color: aliceblue;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a  class="nav-link dropdown-toggle" style="color: aliceblue;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Explore More
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Menu Card</a>
-                <a class="dropdown-item" href="#">Best Deals</a>
-                <div class="dropdown-divider">Areas We Cover</div>
-                <a class="dropdown-item" href="#">Contact Us</a>
+                <a class="dropdown-item" style="cursor: pointer;" id="mc" href="#menu" >Menu Card</a>
+                <a class="dropdown-item" style="cursor: pointer;" id="bd" href="#bdeals">Best Deals</a>
+                <div class="dropdown-divider" style="cursor: pointer;" id="aw">Areas We Cover</div>
+                <a class="dropdown-item" style="cursor: pointer;" id="cu" href="#cnt">Contact Us</a>
               </div>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li> -->
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <!-- <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
       </nav>
 
@@ -64,7 +66,137 @@
               <!-- <img src="/usedstuff/bgi.jpg" alt=""> -->
           </div>
       </section>
-      <section id="tm"></section>
+      <h2 id="h2">EXPLORE SOME STUFF FROM OUR MENU CARD</h2>
+      <section id="tm">
+        <div class="btn" id="pre"></div>
+        <div class="item" id="i1"></div>
+        <div class="item" id="i2"></div>
+        <div class="item" id="i3"></div>
+        <div class="btn" id="nex"></div>
+      </section>
+      <h1 id="h1">MENU CARD</h1>
+      <section id="menu">
+        <h3>SOUTH INDIAN FOOD ITEMS</h3>
+        <div class="dish" id="g1">
+          <p class="xy">Delicious Masala Dosa</p>
+        <p class="xyz">Rs. 100/-</p>
+      <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g2"> <p class="xy">CHEESE BUST DOSA</p>
+          <p class="xyz">Rs. 150/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g3"> <p class="xy">PALAK PANEER DOSA</p>
+          <p class="xyz">Rs. 90/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g4"> <p class="xy">MIX UTTAPAM</p>
+          <p class="xyz">Rs. 100/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g5"> <p class="xy">RICE IDLI</p>
+          <p class="xyz">Rs. 50/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g6"> <p class="xy">PLAIN VADA</p>
+          <p class="xyz">Rs. 30/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <h3>PIZZA</h3>
+        <div class="dish" id="g7"> <p class="xy">PANEER PIZZA</p>
+          <p class="xyz">Rs. 120/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g8"> <p class="xy">DOUBLE CHEESE PIZZA</p>
+          <p class="xyz">Rs. 170/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g9"> <p class="xy">CAPSICUM PIZZA</p>
+          <p class="xyz">Rs. 100/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g10"> <p class="xy">VEG CHEESE BURGER</p>
+          <p class="xyz">Rs. 50/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g11"> <p class="xy">RED PEPRIKA PIZZA</p>
+          <p class="xyz">Rs. 110/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g12"> <p class="xy">CORN CHEESE PIZZA</p>
+          <p class="xyz">Rs. 110/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <h3>INDIAN BREAD</h3>
+        <div class="dish" id="g13"> <p class="xy">TANDOORI ROTI</p>
+          <p class="xyz">Rs. 07/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g14"> <p class="xy">TANDOORI ROTI BUTTERED</p>
+          <p class="xyz">Rs. 09/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g15"> <p class="xy">CHEESE NAAN</p>
+          <p class="xyz">Rs. 09/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g16"> <p class="xy">ONION KULCHA</p>
+          <p class="xyz">Rs. 7.20/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g17"> <p class="xy">LACHCHA PARATHA</p>
+          <p class="xyz">Rs. 30/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g18"> <p class="xy">PLAIN NAAN</p>
+          <p class="xyz">Rs. 20/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <h3>RICE</h3>
+        <div class="dish" id="g19"> <p class="xy">PLAIN RICE</p>
+          <p class="xyz">Rs. 50/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g20"> <p class="xy">VEG BIRYANI</p>
+          <p class="xyz">Rs. 90/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g21"> <p class="xy">DAL KHICHADI</p>
+          <p class="xyz">Rs. 90/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g22"> <p class="xy">JEERA FRIED RICE</p>
+          <p class="xyz">Rs. 50/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g23"> <p class="xy">CURD RICE</p>
+          <p class="xyz">Rs. 90/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g24"> <p class="xy">VEG PULLAO</p>
+          <p class="xyz">Rs. 90/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <h3>CAKES, COOKIES & ICE CREAMS</h3>
+        <div class="dish" id="g25"> <p class="xy">BLACK FOREST CAKE</p>
+          <p class="xyz">Rs. 550/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g26"> <p class="xy">CHOCO CHIPS</p>
+          <p class="xyz">Rs. 590/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g27"> <p class="xy">VANILLA ICE CREAM</p>
+          <p class="xyz">Rs. 490/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g28"> <p class="xy">CHOCOLATE TRUFFLE</p>
+          <p class="xyz">Rs. 690/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g29"> <p class="xy">RASPBERRY</p>
+          <p class="xyz">Rs. 690/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+        <div class="dish" id="g30"> <p class="xy">OREO CAKE</p>
+          <p class="xyz">Rs. 690/-</p>
+        <p class="pqr">ORDER NOW</p></div>
+      </section>
+      <h3 id="bdeals">BEST DEALS</h3>
+      <section id="offer"><img src="offer.png" alt=""></section>
+      <h3 id="at">ABOUT US</h3>
+      <section id="aboutus">
+        <div class="ai"><p id="abf">BR’s Town where BR stands for Bakery and Restaurant is a local restaurant cum bakery located in Prayagraj, Uttar Pradesh. We believe in statisfying customers hunger of tasty and healthy food is the very first priority of any food based business. BR;s Town has been
+          serving well in Prayagraj since 2007. We get customers from almost every locality of this city. Right now we are thinking of taking this business online so that more no. of people can come to know about the taste of products i.e delicious dishes which we bake or cook here. </p>
+        <img src="rs1.png" alt="" id="ime"></div>
+      </section>
+      <h3 id="cnt">CONTACT US</h3>
+      <section id="contact">
+        <form action="#">
+          <label for="name">Full Name</label>
+          <input type="text" id="name">
+          <label for="email">Email ID</label>
+          <input type="email" name="" id="email">
+          Query/Message:
+          <textarea name="" id="" cols="30" rows="10" id="txt"></textarea>
+          <button type="submit">SUBMIT</button>
+        
+
+        </form>
+        <div id="address"><p id="add"> Address: Shop No. 5E, Near Shambunath College, Prayagraj, U.P</p></div>
+      </section>
+      <footer id="cr">Website Designed As Per BR's Town Norms: Hypothetical</footer>
 
        
 
